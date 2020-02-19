@@ -1,0 +1,150 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.App3 {
+  width: 80%;
+  margin: 2% 10%;
+  border: 0.5px solid #a3a2a2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.grid-item {
+  flex-shrink: 0;
+  min-height: 1px;
+  box-sizing: border-box;
+}
+
+.grid-container .grid-item-1 {
+  flex-basis: 8.333333333333332%;
+}
+.grid-container .grid-item-2 {
+  flex-basis: 16.666666666666664%;
+}
+.grid-container .grid-item-3 {
+  flex-basis: 25%;
+}
+.grid-container .grid-item-4 {
+  flex-basis: 33.33333333333333%;
+}
+.grid-container .grid-item-5 {
+  flex-basis: 41.66666666666667%;
+}
+.grid-container .grid-item-6 {
+  flex-basis: 50%;
+}
+.grid-container .grid-item-7 {
+  flex-basis: 58.333333333333336%;
+}
+.grid-container .grid-item-8 {
+  flex-basis: 66.66666666666666%;
+}
+.grid-container .grid-item-9 {
+  flex-basis: 75%;
+}
+.grid-container .grid-item-10 {
+  flex-basis: 83.33333333333334%;
+}
+.grid-container .grid-item-11 {
+  flex-basis: 91.66666666666666%;
+}
+.grid-container .grid-item-12 {
+  flex-basis: 100%;
+}
+
+/* ******************************************* */
+
+.search3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  background-color: #f8fafc;
+  border: 1px solid #dedede;
+  height: 12%;
+
+  padding: 2% 6%;
+  color: #7a8b9d;
+}
+
+.search3 i {
+  font-size: 16px;
+}
+
+.search3 input {
+  height: 22px;
+  width: 30%;
+  margin: 0 0 0 3%;
+  padding: 0 0 0 2%;
+  border: 0.5px solid #f8fafc;
+  background-color: Transparent;
+}
+
+.head3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #7a8b9d;
+  height: 12%;
+  padding: 2% 0 0 6%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tab3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.list3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 2% 0 2% 6%;
+}
+
+.info3 div:first-child {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.info3 div:last-child {
+  color: #1e3e5b;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.arrived {
+  color: #363cf5;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.notArrived {
+  color: #fe9856;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.info3 img {
+  height: 50px;
+  width: 50px;
+  clip-path: polygon(50% 0%, 100% 23%, 100% 77%, 50% 100%, 0 79%, 0 23%);
+}
+
+.icons3 i {
+  font-size: 16px;
+  color: #a2aebb;
+  margin: 0 6px;
+}

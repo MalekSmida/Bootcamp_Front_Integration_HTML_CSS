@@ -1,0 +1,125 @@
+.App2 {
+  /* background-position: center; */
+  height: 60vh;
+  width: 58vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: 5% 10px 10px 32%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+}
+
+.top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-image: url("../../icons/work.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 50%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.static {
+  margin: 5% 5.8% 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.dynamic {
+  margin: 5% 0 0 5.8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 5% 0 5% 0;
+}
+.bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  border-top: 1px solid #f2f4f6;
+  padding: 5% 0 7% 0;
+  color: #1e3e5b;
+}
+
+.dynamic button {
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 6px;
+  height: 25%;
+  width: 42%;
+  color: #1e3e5b;
+  margin: 0 5% 0 0;
+  font-weight: bold;
+}
+
+.static button {
+  margin: 0 0 0 5%;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 25%;
+  width: 25%;
+  color: #1e3e5b;
+}
+
+.icon2 {
+  font-size: 3vh;
+}
+.bot i {
+  width: 30%;
+  padding: 0 0 0 10%;
+}
+.bot p {
+  width: 70%;
+}
+
+.midFirst {
+  padding: 0 6% 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 30%;
+}
+.midFirst p:first-child {
+  font-size: 16px;
+  color: #00c98f;
+  font-weight: bold;
+}
+
+.midFirst p:nth-child(2) {
+  font-size: 28px;
+  color: #1e3e5b;
+  font-weight: bold;
+}
+
+.midSecond p {
+  width: 70%;
+  font-size: 16px;
+}
+
+.midSecond p:first-child {
+  font-weight: bold;
+  color: #1e3e5b;
+}
+
+.midSecond p:nth-child(2) {
+  margin: 6% 0 0 0;
+  color: #7a8b9d;
+}
