@@ -13,7 +13,7 @@ body {
   justify-content: flex-start;
 }
 
-.grid-container {
+.grid_container {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -21,46 +21,46 @@ body {
   justify-content: space-between;
 }
 
-.grid-item {
+.grid_item {
   flex-shrink: 0;
   min-height: 1px;
   box-sizing: border-box;
 }
 
-.grid-container .grid-item-1 {
+.grid_container .grid_item_1 {
   flex-basis: 8.333333333333332%;
 }
-.grid-container .grid-item-2 {
+.grid_container .grid_item_2 {
   flex-basis: 16.666666666666664%;
 }
-.grid-container .grid-item-3 {
+.grid_container .grid_item_3 {
   flex-basis: 25%;
 }
-.grid-container .grid-item-4 {
+.grid_container .grid_item_4 {
   flex-basis: 33.33333333333333%;
 }
-.grid-container .grid-item-5 {
+.grid_container .grid_item_5 {
   flex-basis: 41.66666666666667%;
 }
-.grid-container .grid-item-6 {
+.grid_container .grid_item_6 {
   flex-basis: 50%;
 }
-.grid-container .grid-item-7 {
+.grid_container .grid_item_7 {
   flex-basis: 58.333333333333336%;
 }
-.grid-container .grid-item-8 {
+.grid_container .grid_item_8 {
   flex-basis: 66.66666666666666%;
 }
-.grid-container .grid-item-9 {
+.grid_container .grid_item_9 {
   flex-basis: 75%;
 }
-.grid-container .grid-item-10 {
+.grid_container .grid_item_10 {
   flex-basis: 83.33333333333334%;
 }
-.grid-container .grid-item-11 {
+.grid_container .grid_item_11 {
   flex-basis: 91.66666666666666%;
 }
-.grid-container .grid-item-12 {
+.grid_container .grid_item_12 {
   flex-basis: 100%;
 }
 
