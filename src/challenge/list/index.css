@@ -95,7 +95,7 @@ body {
   justify-content: flex-start ;
   color: #7a8b9d;
   height: 12%;
-  padding: 2% 0 0 6%;
+  padding: 2% 2% 0 6%;
   font-size: 14px;
   font-weight: bold;
 }
@@ -110,7 +110,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 2% 0 2% 6%;
+  padding: 2% 2% 2% 6%;
 }
 
 .info3 div:first-child {
